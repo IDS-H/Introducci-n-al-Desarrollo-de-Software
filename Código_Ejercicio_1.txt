@@ -1,0 +1,24 @@
+/* Programa: Identificador de número primo o no primo */
+#include<stdio.h>
+int main()
+{
+    int i=1, n,c = 0;
+    printf ("Ingrese un número \n");
+scanf ("%d", &n);
+while (i<=n)
+{
+if (n%i==0)
+{
+    c++;
+}
+i++;
+}
+if (c==2){
+    printf("El número SÍ es primo");
+}
+else{
+    printf("El número NO es primo");
+}
+return 0;
+}
+/* Alumno: Hernán Velázquez */
